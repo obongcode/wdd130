@@ -1,0 +1,10 @@
+.box {
+    width: 300px;
+    padding: 50px;
+    border-radius: 1px;
+    border: 7px dotted rgb(230, 200, 212);
+    background-color: currentColor;
+}
+.box::after {
+    content:"What the heck is going on!!!"
+}
